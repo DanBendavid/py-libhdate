@@ -226,28 +226,28 @@ DIGITS = (
     (u" ", u"ק", u"ר", u"ש", u"ת"),
 )
 
-LANG = namedtuple("LANG", "english, hebrew")
+LANG = namedtuple("LANG", "english, hebrew, french")
 DESC = namedtuple("DESC", "long, short")
 
 DAYS = (
-    LANG(DESC(u"Sunday", u"Sun"), DESC(u"ראשון", u"א")),
-    LANG(DESC(u"Monday", u"Mon"), DESC(u"שני", u"ב")),
-    LANG(DESC(u"Tuesday", u"Tue"), DESC(u"שלישי", u"ג")),
-    LANG(DESC(u"Wednesday", u"Wed"), DESC(u"רביעי", u"ד")),
-    LANG(DESC(u"Thursday", u"Thu"), DESC(u"חמישי", u"ה")),
-    LANG(DESC(u"Friday", u"Fri"), DESC(u"שישי", u"ו")),
-    LANG(DESC(u"Saturday", u"Sat"), DESC(u"שבת", u"ז")),
+    LANG(DESC(u"Sunday", u"Sun"), DESC(u"ראשון", u"א"), DESC(u"Dimanche", u"Dim")),
+    LANG(DESC(u"Monday", u"Mon"), DESC(u"שני", u"ב"), DESC(u"Lundi", u"Lun")),
+    LANG(DESC(u"Tuesday", u"Tue"), DESC(u"שלישי", u"ג"), DESC(u"Mardi", u"Mar")),
+    LANG(DESC(u"Wednesday", u"Wed"), DESC(u"רביעי", u"ד"), DESC(u"Mercredi", u"Mer")),
+    LANG(DESC(u"Thursday", u"Thu"), DESC(u"חמישי", u"ה"), DESC(u"Jeudi", u"Jeu")),
+    LANG(DESC(u"Friday", u"Fri"), DESC(u"שישי", u"ו"), DESC(u"Vendredi", u"Ven")),
+    LANG(DESC(u"Saturday", u"Sat"), DESC(u"שבת", u"ז"), DESC(u"Samedi", u"Sam")),
 )
 
 PARASHAOT = (
-    LANG(u"none", u"none"),
-    LANG(u"Bereshit", u"בראשית"),
-    LANG(u"Noach", u"נח"),
-    LANG(u"Lech-Lecha", u"לך לך"),
-    LANG(u"Vayera", u"וירא"),
-    LANG(u"Chayei Sara", u"חיי שרה"),
-    LANG(u"Toldot", u"תולדות"),
-    LANG(u"Vayetzei", u"ויצא"),
+    LANG(u"none", u"none", u"none"),
+    LANG(u"Bereshit", u"בראשית",u"Bereshit"),
+    LANG(u"Noach", u"נח",u"Noach"),
+    LANG(u"Lech-Lecha", u"לך לך", u"Lech-Lecha"),
+    LANG(u"Vayera", u"וירא", u"Vayera"),
+    LANG(u"Chayei Sara", u"חיי שרה", u"Chayei Sara"),
+    LANG(u"Toldot", u"תולדות", u"Toldot"),
+    LANG(u"Vayetzei", u"ויצא", u"Vayetzei" ),
     LANG(u"Vayishlach", u"וישלח"),
     LANG(u"Vayeshev", u"וישב"),
     LANG(u"Miketz", u"מקץ"),
@@ -305,20 +305,20 @@ PARASHAOT = (
 )
 
 MONTHS = (
-    LANG(u"Tishrei", u"תשרי"),
-    LANG(u"Marcheshvan", u"מרחשוון"),
-    LANG(u"Kislev", u"כסלו"),
-    LANG(u"Tevet", u"טבת"),
-    LANG(u"Sh'vat", u"שבט"),
-    LANG(u"Adar", u"אדר"),
-    LANG(u"Nisan", u"ניסן"),
-    LANG(u"Iyyar", u"אייר"),
-    LANG(u"Sivan", u"סיון"),
-    LANG(u"Tammuz", u"תמוז"),
-    LANG(u"Av", u"אב"),
-    LANG(u"Elul", u"אלול"),
-    LANG(u"Adar I", u"אדר א"),
-    LANG(u"Adar II", u"אדר ב"),
+    LANG(u"Tishrei", u"תשרי", u"Tishrei" ),
+    LANG(u"Marcheshvan", u"מרחשוון", u"Marcheshvan"),
+    LANG(u"Kislev", u"כסלו", u"Kislev"),
+    LANG(u"Tevet", u"טבת", u"Tevet"),
+    LANG(u"Sh'vat", u"שבט", u"Sh'vat"),
+    LANG(u"Adar", u"אדר", u"Adar"),
+    LANG(u"Nisan", u"ניסן", u"Nisan"),
+    LANG(u"Iyyar", u"אייר", u"Iyyar"),
+    LANG(u"Sivan", u"סיון", u"Sivan"),
+    LANG(u"Tammuz", u"תמוז", u"Tammuz"),
+    LANG(u"Av", u"אב", u"Av"),
+    LANG(u"Elul", u"אלול", u"Elul"),
+    LANG(u"Adar I", u"אדר א", u"Adar I"),
+    LANG(u"Adar II", u"אדר ב", u"Adar II"),
 )
 
 
